@@ -49,3 +49,68 @@ Untracked files:
 
 
 Answer 6:
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   answers.md
+
+Answer 7:
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+        modified:   answers.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+Answer 8: 
+commit 243be8e2cacfb5f33df3b9aed3a57b7d201acfe7 (HEAD -> master)
+Author: Jaret Crist <jc374719@ohio.edu>
+Date:   Wed Sep 2 16:39:21 2020 -0400
+
+    Initial commit
+
+Answer 9:
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+        modified:   answers.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Answer 10: No, nothing has been changed locally yet
+
+Answer 11: Git failed to push because of a version difference. It recommends pulling first.
+
+Answer 12: Yes the changes were made.
+
+Answer 13: ("ls -a" doesn't work so I use "dir -Force")
+PS C:\Users\jmc09\Documents\2020-2021\cs2400\git-lab-2> ls -a
+Get-ChildItem : Parameter cannot be processed because the parameter name 'a' is ambiguous. Possible matches include: -Attributes -Directory -File -Hidden -ReadOnly -System.
+At line:1 char:4
++ ls -a
++    ~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameter,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+PS C:\Users\jmc09\Documents\2020-2021\cs2400\git-lab-2> dir -Force
+
+
+    Directory: C:\Users\jmc09\Documents\2020-2021\cs2400\git-lab-2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d--h--          9/2/2020   5:10 PM                .git
+-a----          9/2/2020   5:10 PM            302 .gitignore
+-a----          9/2/2020   5:10 PM             11 README.md
