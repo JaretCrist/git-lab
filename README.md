@@ -1,2 +1,4 @@
 Name: Jaret Crist
-Username: JaretCrist
+Username: @JaretCrist
+Email: jc374719@ohio.edu
+Message: Kristen, I put my answers in answers.md
